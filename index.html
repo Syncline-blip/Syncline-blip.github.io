@@ -2,70 +2,188 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <style>
-        /* Reset some default styles */
-        body, ul {
-            margin: 0;
-            padding: 0;
-        }
-
-        /* Basic styling for the navigation bar */
-        nav {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-        }
-
-        /* Style for the navigation links */
-        nav ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        nav ul li {
-            display: inline;
-            margin: 0 20px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: #fff;
-            font-weight: bold;
-            font-size: 18px;
-        }
-
-        /* Style for the main content */
-        .content {
-            padding: 20px;
-        }
-
-        /* Add a border to separate the content from the navigation bar */
-        .content {
-            border-top: 2px solid #333;
-        }
-    </style>
+    <title>John Lumagbas</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#work">Work Experiences</a></li>
-            <li><a href="#projects">Projects</a></li>
-        </ul>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-transparent navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">JL</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Experience</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Education</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <div class="content" id="about">
-        <h1>About Me</h1>
-        <p>This is the section about me.</p>
-    </div>
-    <div class="content" id="work">
-        <h1>Work Experiences</h1>
-        <p>This is the section about my work experiences.</p>
-    </div>
-    <div class="content" id="projects">
-        <h1>Projects</h1>
-        <p>This is the section about my projects.</p>
-    </div>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>John Aaron Dayao Lumagbas</h1>
+                    <p>jadlumagbas@gmail.com - 0428 505 835</p>
+                    <p>
+                        <a href="https://au.linkedin.com/in/jlumagbas">Connect on LinkedIn</a> |
+                        <a href="https://au.linkedin.com/in/jlumagbas">My Github Page</a>
+                    </p>
+                    <a class="btn btn-default page-scroll" href="resume_john_lumagbas_.pdf">Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Objective</h1>
+                    <p>
+                        A passionate Computer Science student with on-the-job technical experiences and skills who strives to become one of the best in the Technology Industry. I enjoy working in unfamiliar settings that challenge my skills and push me beyond the limits of my capabilities.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Experience</h1>
+                    <div class="timeline">
+                        <ul>
+                            <!-- Repeat the following list item structure for each experience entry -->
+                            <li>
+                                
+                                <div class="content">
+                                    <h3>Systems Programmer | Pro AV Solutions WA</h3>
+                                    <p>
+                                        Worked in the Audio/Visual industry with Pro AV Solutions WA.
+                                        Using proprietary programming languages such as SIMPL (Crestron). I programmed and configured different
+                                        audio/visual conferencing components used in meeting rooms such as control systems, touch panels and occupancy sensors
+                                        I was also responsible for automating UI button creations to mimic the style of Apple's tvOS 16 as per a client's request.
+                                        This was achieved using Python and third party libraries such as colourthief and PIL/pillow to create buttons based on local
+                                        television channel logos
+                                    </p>
+                                </div>
+                                <div class="point"></div>
+                                <div class="date">
+                                    <h4>Jan 2023 - Aug 2023</h4>
+                                </div>
+                                
+                            </li>
+                            <li>
+                                <div class="content">
+                                    <h3>Intern Product Development | Flanders Electric WA</h3>
+                                    <p>
+                                        Undertook an 8 week internship with Flanders Electrice/Drill Automation WA, where I was given training on essential software engineering
+                                        skills and gained exposure to unfamiliar languages and technologies such as C# and .NET. This experience also marks my first exposure to web
+                                        development as I took part in a web-based microservice that would visualise drill data, and that was to be added to a larger application. 
+                                        The project exposed me to different web-development languages such as HTML/CSS and JavaScript and introduced some basic work with Angular.
+                                    </p>
+                                </div>
+                                <div class="point"></div>
+                                <div class="date">
+                                    <h4>Jan 2022 - Feb 2022</h4>
+                                </div>
+                    
+                          
+                            </li>
+                            <li>
+                                <div class="content">
+                                    <h3>Customer Service | Woolworths Innaloo WA</h3>
+                                    <p>
+                                        As a customer service employee for Woolworths Innaloo WA, I served customers and ensured that all
+                                        their shopping goods and items are correctly scanned and proccessed so that transactions are accurate.
+                                        I worked in different areas such as self-serve, main checkouts and smokes.
+                                    </p>
+                                </div>
+                                <div class="point"></div>
+                                <div class="date">
+                                    <h4>Jul 2021 - May 2023</h4>
+                                </div>
+                    
+                          
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Education</h1>
+                    <p>
+                        <b>BSc, Computer Science</b>
+                        <br>University of Western Australia • 2021 - 2024
+                        
+                        <ul>
+                            <caption>Units</caption>
+                            <li>CITS1001 - Introduction to Software Eng. with Java</li>
+                            <li>CITS1402 - Relational Database Management</li>
+                            <li>CITS2003 - Open Source Tools and Scripting</li>
+                            <li>CITS2002 - Systems Programming </li>
+                            <li>PHIL1001 - Ethics for the Digital Age</li>
+                            <li>CITS2211 - Discrete Structures</li>
+                            <li>CITS3403 - Agile Web Development</li>
+                            <li>CITS3003 - Graphics and Animation</li>
+                            <li>CITS3002 - Computer Networks</li>
+
+                        </ul>
+                    </p>
+                    <p>
+                       
+                    </p>
+                    <br>
+                    <h1>Skills</h1>
+                    <p><b>Software & Tools</b></p>
+                    <ul>
+                        <!-- Add software and tools skills here -->
+                    </ul>
+                    <p><b>Management & Ops</b></p>
+                    <ul>
+                        <!-- Add management and operations skills here -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
